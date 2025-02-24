@@ -60,7 +60,7 @@ namespace ProtokolEks
                         writer.WriteLine(random.Next(1, dicePickParsed + 1));
                         writer.Flush();
                     }                    
-                    else if (dicePick != "4" || dicePick != "6" || dicePick != "8" || dicePick != "10" || dicePick != "12" || dicePick != "20")
+                    else
                     {
                         writer.WriteLine("you have to pick dice number 4/6/8/10/12/20");
                         writer.Flush();

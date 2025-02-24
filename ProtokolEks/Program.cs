@@ -15,5 +15,3 @@ while (true)
     TcpClient client = listener.AcceptTcpClient();
     Task.Run(() => ClientHandler.HandleClient(client));
 }
-
-listener.Stop();
